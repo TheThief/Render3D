@@ -1,0 +1,11 @@
+newmtl spot
+  illum 2
+  Ka 1 1 1       # ambient
+  map_Ka spot_texture.png
+  Kd 1 1 1       # diffuse
+  map_Kd spot_texture.png
+  Ks 0.2 0.2 0.2 # specular
+    Ns 10.0000
+  Ke 0 0 0       # emissive
+  d 1.0000 # transparency
+   # Tr 0
